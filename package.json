@@ -1,0 +1,12 @@
+{
+    "name": "ace-test",
+    "version": "0.0.1",
+    "description": "Audio Conference Engine test automation framework ",
+    "scripts": {
+        "test": "mocha native-example.test.js"
+    },
+    "dependencies": {
+    "cucumber": "^2.0.0-rc.2",
+    "mocha": "^3.1.2"
+    }
+}
