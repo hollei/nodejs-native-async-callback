@@ -1,18 +1,20 @@
-1. How to build native module:
-1.1. run "node-gyp configure"
-1.2. run "node-gyp build"
+1. How to build the native module:
+1.1. npm install
+1.2. npm configure
+1.3. npm build
 
 2. How to run unit test (mocha)
-2.1 run "mocha native-example.test.js"
+2.1 npm run mocha
 
 3. How to run cucumber test
-3.1 run "cucumber-js" (test and steps defined in subfolder "features")
+3.1 npm run cucumber
 
 4. How to run node app script
-4.1 run "node native-example.app.js" 
+4.1 npm run app
 
 5. Results
-5.1 unit test with Promise failes
-5.2. cucumber step with Promise failes
-5.3. all tests without Promise (mocha and cucumber) passes
-5.4. node app with Promise passes
+5.1. mocha test with Promise failes
+5.2. mocha test without Promise passes
+5.3. cucumber step with Promise failes
+5.4. cucumber step without Promise passes
+5.5. node app script with or without Promise passes
